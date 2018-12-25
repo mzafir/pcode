@@ -10,7 +10,7 @@ def playGame(arr, cntr):
         playGame(arr,cntr)
 
     if 0 <= cntr <= len(arr)-1 and arr[cntr] == 0:
-         playGame(arr, cntr)
+         return True
 
 
     else:
